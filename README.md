@@ -16,7 +16,7 @@ Nothing complex, Wallett is a free, privacy-focused income and expense tracking 
 - [x] Cross Platform - access on any device, anywhere.
 - [x] Ad-Free with no hidden costs or fees.
 - [x] Open Source.
-- [x] Stats.
-- [x] Multiple Currencies.
-- [x] Dark mode support.
-- [x] Export and Import data.
+- [ ] Stats.
+- [ ] Multiple Currencies.
+- [ ] Dark mode support.
+- [ ] Export and Import data.
