@@ -1,9 +1,9 @@
 import { ArrowRight } from "lucide-react";
 import { Button } from "../../components/Button";
-import { useAnimate, stagger, delay } from "framer-motion";
+import { useAnimate, stagger } from "framer-motion";
 import { useEffect } from "react";
 
-const sequence = [
+const sequence: any = [
   ["[data-fxm-app]", { opacity: [0, 1] }],
   [
     "[data-fxm-phone]",
