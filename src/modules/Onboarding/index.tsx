@@ -1,14 +1,14 @@
 import { ArrowRight } from "lucide-react";
 import { Button } from "../../components/Button";
-import { useAnimate, stagger } from "framer-motion";
+import { useAnimate, stagger, delay } from "framer-motion";
 import { useEffect } from "react";
 
 const sequence = [
-  ["[data-fxm-phone]", { opacity: [0, 1], y: [50, 0] }, { delay: 0.2 }],
+  ["[data-fxm-app]", { opacity: [0, 1] }],
   [
-    "[data-fxm-app]",
-    { opacity: [0, 1] },
-    { delay: stagger(0.5) },
+    "[data-fxm-phone]",
+    { opacity: [0, 1], y: [70, 0] },
+    { delay: stagger(0.2) },
     { ease: "easeInOut" },
   ],
   ["[data-fxm-description]", { opacity: [0, 1] }, { delay: stagger(0.2) }],
@@ -30,9 +30,9 @@ const OnboardingModule = () => {
       <div className="flex flex-col justify-between items-center h-[60vh]">
         <div className="text-center flex flex-col justify-center items-center">
           <img
-            src="/phone.png"
+            src="/phone2.png"
             alt="phone-cover"
-            className="w-[155px]"
+            className="w-[150px]"
             data-fxm-phone
           />
           <h1 className="text-5xl font-semibold" data-fxm-app>
